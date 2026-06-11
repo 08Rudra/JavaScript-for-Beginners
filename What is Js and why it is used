@@ -1,0 +1,21 @@
+# What is JavaScript?
+JavaScript is the programming language that makes web pages interactive
+and alive.
+
+# Why We Use It
+Without JavaScript, a website is just a static page of text and pictures. We use JavaScript to build things that move, change, or react when a user clicks, types, or hovers.
+
+# The Real-Life House Example
+
+To understand how JavaScript works, imagine building a house. A complete website needs three core technologies, just like a house needs three main stages
+┌────────────────────────────────────────────────────────┐
+│                      THE HOUSE                         │
+├───────────────────┬───────────────────┬────────────────┤
+│       HTML        │       CSS         │   JAVASCRIPT   │
+│  (The Structure)  │    (The Decor)    │ (The Smart FX) │
+├───────────────────┼───────────────────┼────────────────┤
+│ • Bricks          │ • Paint           │ • Light switch │
+│ • Walls           │ • Wallpaper       │ • Electric door│
+│ • Rooms           │ • Furniture       │ • Smart alarm  │
+└───────────────────┴───────────────────┴────────────────┘
+It can update and change both HTML and CSS. 

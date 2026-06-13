@@ -1,0 +1,19 @@
+# In JavaScript, var, let, and const are boxes used to store data, but they have different rules regarding how their content can be changed and where they can be accessed. Think of a variable as a labeled storage box in your program.
+
+📦 1. var (The Old, Careless Box)
+var is the oldest way to make a variable in JavaScript.
+It is very loose and careless, which often causes bugs,
+so modern developers rarely use it.Can you change the value?
+Yes. You can update it or even recreate the exact same box name
+without an error.Where does it live? It has "Function Scope".
+If you put it inside any curly braces {} like an if statement
+or a loop, it escapes and can still be used outside of them.
+It only stays trapped if it is inside a function.Real-world analogy:
+A shared whiteboard where anyone can erase and overwrite everything
+at any time.
+
+#SYNTAX OF VAR
+
+var price = 10;
+var price = 20; // Re-declaring works fine! No error.
+price = 30;     // Changing works fine too.

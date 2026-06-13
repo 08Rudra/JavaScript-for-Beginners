@@ -12,7 +12,7 @@ It only stays trapped if it is inside a function.Real-world analogy:
 A shared whiteboard where anyone can erase and overwrite everything
 at any time.
 
-#SYNTAX OF VAR
+# SYNTAX OF VAR
 
 var price = 10;
 var price = 20; // Re-declaring works fine! No error.

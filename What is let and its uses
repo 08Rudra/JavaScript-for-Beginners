@@ -1,0 +1,16 @@
+# In JavaScript var, let, and const are boxes used to store data, but they have different rules regarding how their content can be changed and where they can be accessed. Think of a variable as a labeled storage box in your program.
+
+# let (The Modern, Smart Box)
+
+let was introduced to fix the issues of var.
+It is a safe, standard choice when you know the data
+inside the box will need to change later
+(like a game score or a loop counter).Can change value?
+Yes. You can reassign a new value to it later.Can recreate? No. If you try to declare the exact same variable name again in the same place, JavaScript will throw an error and stop.Where does it live? It has "Block Scope". It stays strictly trapped inside the nearest curly braces {} where you built it (like loops or if statements) and cannot leak out.
+
+# SYNTAX OF LET
+
+let score = 10;
+score = 15; // Perfectly fine! The score changed.
+
+// let score = 20; // ERROR! You cannot recreate a 'let' variable.

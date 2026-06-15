@@ -1,0 +1,10 @@
+3. # const (The Locked, Permanent Box)
+   const is short for constant.
+   Use this by default for everything unless you know for sure
+   the value must change later.Unchangeable: Once you assign a value,
+   it is locked. You cannot reassign it to something else.Must Initialize:
+   You cannot leave it empty; you must give it a value right away when you create it.Strict Scope: Just like let, it is block-scoped and stays locked inside its curly braces {}.
+
+   # SYNTAX OF CONST
+   const pi = 3.14;
+   pi = 5; // ERROR! You cannot change a constant box.

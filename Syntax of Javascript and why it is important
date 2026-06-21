@@ -1,0 +1,12 @@
+JavaScript syntax is the official set of rules that defines how code must be written and structured so the computer can understand it. Just like human languages have grammar rules for sentences, JavaScript has strict rules for symbols, punctuation, and keywords to create working programs.
+
+What is JavaScript Syntax? (The Key Building Blocks)
+When you look at JavaScript code, you are seeing several structural rules working together:
+Variables: Containers used to store information. They are declared using keywords like let or const.
+Data Types: The kind of values you use, like numbers (10) or text strings written inside quotation marks ("Hello").
+Operators: Symbols that perform actions, like the plus sign + for addition or = to assign a value.
+Case Sensitivity: Capitalization matters. Writing myVariable is completely different from writing myvariable.
+Semicolons: Used to mark the end of an instruction or statement, similar to a period at the end of a sentence.
+For example
+let score = 100;
+If you change it to LET score = 100 or forget the punctuation, the computer will get confused.sss

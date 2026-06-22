@@ -1,0 +1,15 @@
+# JAVASCRIPT OPERATORS
+JavaScript operators are special symbols used to run calculations, compare values, and assign data to variables. Think of them as the mathematical verbs of your code.
+JavaScript features 11 primary categories of operators grouped by the specific functions they execute.
+# TYPES OF OPERATORS
+1. Arithmetic Operators
+2. Assignment Operators
+3. Comparison Operators
+4. Logical Operators
+5. String Operators
+6. Conditional (Ternary) Operator
+7. Unary Operators
+8. Relational Operators
+9. Bitwise Operators
+10. BigInt Operators
+11. Comma Operator

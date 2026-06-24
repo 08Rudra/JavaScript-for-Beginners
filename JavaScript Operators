@@ -3,6 +3,28 @@ JavaScript operators are special symbols used to run calculations, compare value
 JavaScript features 11 primary categories of operators grouped by the specific functions they execute.
 # TYPES OF OPERATORS
 1. Arithmetic Operators
+Operator     Uses                            Syntax
++	           Addition                        console.log(10 + 5); // Outputs: 15
+-	           Subtraction                     console.log(10 - 5); // Outputs: 5 
+*	           Multiplication                  console.log(10 * 5); // Outputs: 50
+**	         Exponentiation                  console.log(2 ** 3); // Outputs: 8
+/	           Division                        console.log(10 / 5); // Outputs: 2
+%	           Modulus (Division Remainder)    console.log(10 % 3); // Outputs: 1
+++	         Increment                       let x = 5; console.log(++x); // Outputs: 6
+--	         Decrement                       let x = 5; console.log(--x); // Outputs: 4
+There are two types of increment and decrement operators in JavaScript: Pre-increment/Pre-decrement and Post-increment/Post-decrement.
+1) Pre-Increment (++x)
+The value is increased before it is used.    let x = 5; console.log(++x); // 6
+2) Post-Increment (x++)
+The value is used first, then increased.     let x = 5; console.log(x++); // 5
+3) Pre-Decrement (--x)
+The value is decreased before it is used.    let x = 5; console.log(--x); // 4
+4) Post-Decrement (x--)
+The value is used first, then decreased.     let x = 5; console.log(x--); // 5
+# Easy Way To Use
+Pre (++x, --x) → Change first, then use.
+Post (x++, x--) → Use first, then change.
+
 2. Assignment Operators
 3. Comparison Operators
 4. Logical Operators

@@ -26,6 +26,25 @@ Pre (++x, --x) → Change first, then use.
 Post (x++, x--) → Use first, then change.
 
 2. Assignment Operators
+Assignment Operators in JavaScript
+
+Assignment operators are used to assign (store) values to variables. They help us put a value
+into a variable or update its value easily. The most common assignment operator is = which assigns
+a value to a variable. JavaScript also provides shortcut assignment operators like +=, -=, *=, and /= to
+perform calculations and assign the result in a single step
+# JavaScript Assignment Operators
+Operator	               Example                             Meaning
+=               	       x = 10	                             Assign value
++=	                     x += 5	                             Add and assign
+-=	                     x -= 5	                             Subtract and assign
+*=	                     x *= 2	                             Multiply and assign
+/=	                     x /= 2	                             Divide and assign
+%=	                     x %= 3	                             Modulus and assign
+# Logical Assignment Operators
+Operator	              Example                              Result
+&&=	                    true &&= 10	                         x = 10
+||=	                    false ||= 10	                       x = 10
+??=	                    null ??= 10                          x = 10
 3. Comparison Operators
 4. Logical Operators
 5. String Operators
